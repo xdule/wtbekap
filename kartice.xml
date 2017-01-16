@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kartice>
+    <karta id="1">
+      <slika>./images/Cessna182.jpg</slika>
+      <title>CESSNA 182</title>
+      <text>Model porijeklom iz americke firme x</text>
+    </karta>
+    
+    <karta id="2">
+      <slika>./images/Cessna182.jpg</slika>
+      <title>LEARNJET</title>
+      <text>Model porijeklom iz americke firme x</text>
+    </karta>
+    
+    <karta id="4">
+      <slika>./images/27c20e71-22b6-4d27-8829-67823709b435.jpg</slika>
+      <title>TG 182</title>
+      <text>Model porijeklom iz americke firme x</text>
+    </karta>
+    
+     <karta id="4">
+      <slika>./images/27c20e71-22b6-4d27-8829-67823709b435.jpg</slika>
+      <title>TG 182</title>
+      <text>Model porijeklom iz americke firme x</text>
+    </karta>
+    
+     
+    
+
+     
+    
+    
+    
+    
+</kartice>

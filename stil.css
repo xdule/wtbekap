@@ -1,0 +1,330 @@
+* {
+    box-sizing: border-box;
+}
+
+.header {
+    padding: 15px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    padding: 10px;
+    
+
+}
+
+
+
+.karosel
+{
+    width: 100%;
+    height: 13vw;
+    
+    border: 1px solid grey;
+    
+}
+.lijevid
+    {
+        
+    float:left;height:12.8vw;width:2.86vw       
+        
+}
+.desnid
+{
+    float:right;height:12.8vw;width:2.86vw;
+}
+
+.levaslika
+{
+    height:12.8vw;width:13vw;
+    
+}
+.srednjaslika
+{
+    height:12.8vw;width:13vw;position:absolute;left:38.5%;right:30%;
+}
+.desnaslika
+{
+    height:12.8vw;width:13vw;float:right;
+    
+}
+
+.glavabanner
+{
+    
+    width:100%; background-color:#111;color: white; 
+    text-align: center;
+    
+    
+}
+.titl
+{
+    text-align:center;color:grey;z-index:1;font-size:4vw;
+}
+.aktuelni
+{
+    font-size:1.6vw;
+    
+}
+.col-1 {width: 20%;margin-top: 1.9vw;}
+.col-2 {width: 60%;}
+.col-3 {width: 40%;}
+.col-4 {width: 30%;}
+
+.slika
+{
+height:50%;
+float:top;
+
+}
+.slikica
+{
+	width:100%;
+	height:50%;
+}
+
+.tekst
+{
+float:top;
+
+
+}
+img
+{
+width:100%;
+height:100%;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+  font-size:1.3vw;
+  display: inline-block;
+  text-overflow: ellipsis;
+   
+  width: 20%;
+    float: left;
+}
+.login
+{
+    
+    background-color: #66ccff;
+    
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+     
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+
+
+.active {
+   /* background-color: #4CAF50;*/
+	background-color:#66ccff;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    z-index: 1;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 19%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: 0.3s;
+    text-align: left;
+    font-size: 1.3vw;
+    
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+
+.tijelo
+{
+overflow:hidden;
+margin-left:10%;
+margin-right:10%;
+/*background-color: #f2f2f2;*/
+/*border:2px solid #f2f2f2;*/
+
+height:100%;
+margin-top:10%;
+}
+h4,p
+{
+font-size:1vw;
+
+}
+.card{
+	/*max-width:32%;
+	min-width:32%;*/
+width:33.333%;
+
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+	float:left;
+padding: 5px;
+
+
+}
+.card:hover
+{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.sirokicard{
+	/*max-width:32%;
+	min-width:32%;*/
+width:100%;
+
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+	float:left;
+padding: 5px;
+
+
+}
+.sirokicard:hover
+{
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.loginfont
+{
+    margin-top: 5px;
+    width:100%;font-size:1.4vw;
+}
+
+
+@media only screen and (max-width: 700px) {
+    /* For mobile phones: */
+  
+   .col-1 {clear: both;width: 100%;}
+.col-2 {clear: both; width: 100%;}
+.col-3 {clear: both; width: 33.33%;}
+ 
+
+.card{
+
+clear:both;   
+    width: 99%;
+    
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+	float:left;
+padding: 5px;
+
+
+}
+h4,p
+{
+font-size:4vw;
+
+}
+.aktuelni
+    {
+        font-size: 3vw;
+    }
+li {
+  font-size:3vw;
+  display: block;
+  text-overflow: ellipsis;
+   transition: 0.4s;
+  width: 100%;
+    float: left;
+}
+    .loginfont
+{
+    margin-top: 5px;
+    width:100%;font-size:4vw;
+
+}
+    .tijelo
+    {
+        width: 100%;
+        margin: auto;
+        transition: 0.1s;
+}
+    .karosel
+{
+    width: 100%;
+    height: 50vw;
+    
+    border: 1px solid grey;
+    
+    
+}
+    .lijevid
+    {
+        height: 49.5vw;width:9.152vw;
+        
+        
+    }
+    .desnid
+{
+    float:right;height:49.5vw;width:9.152vw;
+    
+}
+.levaslika
+{
+    display: none;
+    
+}
+.srednjaslika
+{
+    height:49.5vw;width:49.5vw;position:absolute;left:23%;right:22%;
+}
+.desnaslika
+{
+   display: none;
+    
+}
+    .dropdown-content {
+    
+    min-width: 80%;
+    
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: 0.3s;
+    text-align: left;
+    font-size: 3vw;
+    
+}
+    
+}
