@@ -13,8 +13,24 @@ $username = "xdule";
 $password = "password";
 $dbname = "myDB1";
 
+
+
+	
+	$dbhost=getenv('MYSQL_SERVICE_HOST');
+$dbuser = 'xdule';
+$dbpass = 'password';
+$conn = ($GLOBALS["___mysqli_ston"] = mysqli_connect($dbhost,  $dbuser,  $dbpass));
+if(! $conn ) {
+die('Could not connect: ' . mysqli_error($GLOBALS["___mysqli_ston"]));
+}
+ mysqli_select_db($GLOBALS["___mysqli_ston"], 'myDB1');
+
+
+
+
+
 // Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
+//$conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
