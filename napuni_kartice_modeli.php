@@ -32,9 +32,9 @@ die('Could not connect: ' . mysqli_error($GLOBALS["___mysqli_ston"]));
 // Create connection
 //$conn = new mysqli($servername, $username, $password, $dbname);
 // Check connection
-if ($conn->connect_error) {
+/*if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
-} 
+} */
 
 $sql = "SELECT id, tekst, podtekst, link FROM modelibaza";
 $result = mysqli_query( $conn ,  $sql);
