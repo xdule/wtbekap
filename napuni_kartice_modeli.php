@@ -7,8 +7,9 @@ sleep(0.3);
 
 
 
-$servername = $_SERVER['HTTP_HOST'];
-$username = "root";
+//$servername = $_SERVER['HTTP_HOST'];
+$servername=getenv('MYSQL_SERVICE_HOST');
+$username = "xdule";
 $password = "password";
 $dbname = "myDB1";
 
