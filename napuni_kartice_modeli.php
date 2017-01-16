@@ -20,9 +20,9 @@ $dbname = "myDB1";
 $dbuser = 'xdule';
 $dbpass = 'password';
 $conn = ($GLOBALS["___mysqli_ston"] = mysqli_connect($dbhost,  $dbuser,  $dbpass));
-if(! $conn ) {
+/*if(! $conn ) {
 die('Could not connect: ' . mysqli_error($GLOBALS["___mysqli_ston"]));
-}
+}*/
  mysqli_select_db($GLOBALS["___mysqli_ston"], 'myDB1');
 
 
